@@ -1,0 +1,1008 @@
+2020-05-14 14:47:54 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/home
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDisplay() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 50
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:47:54 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplate() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:47:54 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplateInDebug() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:47:54 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/../Layout/ajax
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDirectoryTraversalProtection() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:49:44 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/home
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDisplay() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 50
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:49:44 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplate() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:49:44 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplateInDebug() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:49:44 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/../Layout/ajax
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDirectoryTraversalProtection() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:43 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/home
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDisplay() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 50
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:43 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplate() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:43 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplateInDebug() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:43 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/../Layout/ajax
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDirectoryTraversalProtection() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:58 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/home
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDisplay() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 50
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:58 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplate() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:58 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplateInDebug() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:51:58 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/../Layout/ajax
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDirectoryTraversalProtection() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:06 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/home
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDisplay() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 50
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:06 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplate() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:06 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplateInDebug() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:06 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/../Layout/ajax
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDirectoryTraversalProtection() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:31 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/home
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDisplay() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 50
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:31 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplate() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:31 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplateInDebug() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:54:31 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/../Layout/ajax
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDirectoryTraversalProtection() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:57:27 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/home
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDisplay() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 50
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:57:27 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplate() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:57:27 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/not_existing
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testMissingTemplateInDebug() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
+2020-05-14 14:57:27 Notice: Notice (1024): Undefined property: ErrorController::$Auth in C:\wamp64\www\partiel_cake\src\Controller\AppController.php on line 33 in [C:\wamp64\www\partiel_cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 387]
+Request URL: /pages/../Layout/ajax
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 158
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 387
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 33
+App\Controller\ErrorController::beforeRender() - APP/Controller\ErrorController.php, line 56
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 352
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 329
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 113
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 782
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 368
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 243
+Cake\Error\Middleware\ErrorHandlerMiddleware::handleException() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 116
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+Cake\TestSuite\MiddlewareDispatcher::execute() - CORE\src\TestSuite\MiddlewareDispatcher.php, line 201
+Cake\TestSuite\IntegrationTestCase::_sendRequest() - CORE\src\TestSuite\IntegrationTestTrait.php, line 535
+Cake\TestSuite\IntegrationTestCase::get() - CORE\src\TestSuite\IntegrationTestTrait.php, line 415
+App\Test\TestCase\Controller\PagesControllerTest::testDirectoryTraversalProtection() - ROOT\tests\TestCase\Controller\PagesControllerTest.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit\Framework\TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1071
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 939
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 698
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 894
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 755
+PHPUnit\TextUI\TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 545
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 195
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 148
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 53
+
+
+
